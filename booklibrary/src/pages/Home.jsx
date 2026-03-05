@@ -3,14 +3,15 @@ import { Link } from 'react-router-dom';
 import books from '../data/books'; // Make sure this path is correct
 
 const categories = [
-  'Fiction',
-  'Comedy-Drama',
-  'Non-Fiction',
   'Sci-Fi',
-  'Fantasy',
   'Biography',
+  'Education',
+  'Fiction',
+  'Non-Fiction',
+  'Fantasy',
+  'Comedy-Drama',
   'Thriller',
-  'Education'
+  
 ];
 
 const Home = () => {

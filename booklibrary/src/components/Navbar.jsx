@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="bg-slate-900 text-white px-8 py-4 shadow-md flex justify-between items-center">
       
-      {/* 1. Use Link for the Brand/Logo (No active state needed) */}
+      {/* 1. Use Link for the Brand (No active state needed) */}
       <div className="text-2xl font-bold">
         <Link to="/">The Book Hub</Link>
       </div>
