@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar"
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <h1>Book Library</h1>
+      <Navbar/>
     </>
   )
 }
